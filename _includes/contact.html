@@ -61,6 +61,12 @@
     </li>
     {% endif %}
 
+    {% if sidebar.badgr-collection %}
+    <li class="badgr"><i class="fas fa-certificate"></i>
+      <a href="https://api.eu.badgr.io/public/collections/{{ sidebar.badgr-collection }}" target="_blank">Certifications</a>
+    </li>
+    {% endif %}
+
     {% if sidebar.codewars %}
     <li class="codewars"><i class="fas fa-code"></i>
       <a href="https://www.codewars.com/users/{{ sidebar.codewars }}/completed_solutions" target="_blank">{{ sidebar.codewars }}</a>
