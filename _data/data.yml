@@ -10,7 +10,7 @@ sidebar:
     linkedin: matthewwilliams8
     github: matt-williams8
     stack-overflow: 2140248/matt-williams
-    # badgr-collection: 7216528fad5fbd1fd8958f325994e588
+    badgr-collection: 7216528fad5fbd1fd8958f325994e588
 
     languages:
       - idiom: English
@@ -63,7 +63,7 @@ experiences:
         During this first year in the team I gradually became regarded as a more and more senior member of the team. After the first few months I found that senior engineers were coming to bounce ideas off me with increasing frequency. This was recognised by my manager who put me forward for a promotion to Senior Engineer in December (effective from April).
 
         Day-to-day technologies used: Java 8, Spring Boot, Cloud Foundry, Kafka, Angular, cypress, PostgreSQL (AWS RDS), Redis (AWS elasticache), Git, and Bamboo
-    - role: Software Engineer & Team Lead
+    - role: Software Engineer (Proposals & Outcomes team lead)
       time: Aug 2016 - Dec 2017
       company: Science and Technology Facilities Council (STFC), Harwell, UK
       details: |
