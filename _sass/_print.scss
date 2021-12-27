@@ -14,13 +14,13 @@
    .main-wrapper .time {
        float: right;
         color: black !important;
-        -webkit-print-color-adjust: exact; 
+        -webkit-print-color-adjust: exact;
    }
     .sidebar-wrapper {
         position: static;
         float: right;
         width: 40%;
-        -webkit-print-color-adjust: exact; 
+        -webkit-print-color-adjust: exact;
     }
 
     .remove-container.container-block {
@@ -30,5 +30,11 @@
     footer {
        display: none;
     }
+
+   .fa-inverse,
+   .fa-inverse:after,
+   .fa-inverse:before {
+     color: #ffffff !important;
+   }
 
 }
