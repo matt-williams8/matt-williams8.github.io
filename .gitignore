@@ -1,6 +1,12 @@
+# jekyll
 _site/
 .sass-cache/
 .jekyll-metadata
 .jekyll-cache
 
+# ruby
+# GitHub Pages doesn't care about the lock file
+Gemfile.lock
+
+# misc
 *.pdf
