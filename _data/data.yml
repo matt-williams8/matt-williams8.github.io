@@ -12,22 +12,6 @@ sidebar:
     stack-overflow: 2140248/matt-williams
     badgr-collection: 7216528fad5fbd1fd8958f325994e588
 
-    languages:
-      - idiom: English
-        level: Native
-
-    interests:
-      - item: Travelling
-        link:
-      - item: Swimming
-        link:
-      - item: Running
-        link:
-      - item: Football
-        link:
-      - item: NFL
-        link:
-
 career-profile:
     title: Career Profile
     summary: |
@@ -94,24 +78,7 @@ experiences:
       company: STFC, Harwell, UK
       details: |
         In my first commercial software development experience I was fortunate to join a small team responsible for all phases of the software development lifecycle, so gained a solid grounding in what it mean to be part of a professional software development team.
-        
-skills:
-    title: Tools &amp; Technologies
-    toolset:
-      - name: Java & Spring Boot
-        level: 90%
-      - name: Git
-        level: 70%
-      - name: CI/CD (Jenkins & Bamboo)
-        level: 50%
-      - name: Kubernetes
-        level: 30%
-      - name: Kafka
-        level: 25%
-      - name: TypeScript & Angular
-        level: 15%
-      - name: C#
-        level: 15%
 
+        Technologies: See above
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
