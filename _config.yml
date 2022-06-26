@@ -3,9 +3,9 @@
 title: Matthew Williams
 url: 'https://matt-williams8.github.io'
 baseurl: ''
-description: A beautiful Jekyll theme for creating resume
+description: Matthew Williams' CV
 theme_skin: ceramic
-chrome_mobile_color: 
+chrome_mobile_color:
 
 # Sass/SCSS
 sass:
