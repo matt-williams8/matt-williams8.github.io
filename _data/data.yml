@@ -3,7 +3,7 @@ sidebar:
 
     # Profile information
     name: Matthew Williams
-    tagline: Senior Software Engineer and Professional Scrum Master
+    tagline: Tech Lead and Professional Scrum Master
     avatar: cv.jpeg
 
     # Sidebar links
@@ -15,69 +15,93 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      I am a Senior Software Engineer and Professional Scrum Master with over 7 years experience mainly as a back-end developer, but with a sprinkling of full-stack exposure. Through my roles to date I have had exposure to the scientific research, e-commerce and payments domains.
+      I am a Tech Lead/Senior Software Engineer and Professional Scrum Master with nearly 10 years experience mainly as a back-end engineer, but with a sprinkling of full-stack exposure. Through my roles to date I have had worked in the payments, eCommerce and scientific research domains.
 
-      Most recently I have been working on cloud native stacks, making use of Spring Boot, Angular, Kubernetes, Kafka, AWS (Redis elasticache, PostgreSQL RDS, MySQL aurora, SQS and others), Terraform, Jenkins, BuildKite and more.
+      Most recently I have been working on cloud native stacks, making use of Kotlin, Spring Boot, Kubernetes, AWS (MySQL aurora, SNS & SQS, DynamoDB and others), Terraform, GitHub Actions, Prometheus and more. In the past I have also had limited experience with Angular and C#/ASP.NET.
 
-      I am whole hearted believer in "If it's not tested, it doesn't work" and am always an advocate for my teams increasing their automated test coverage throughout the testing pyramid.
+      I may be a relatively recent convert to TDD, but I've forever been a whole hearted believer in "If it's not tested, it's not 'done' and it doesn't work" and am always an advocate for my teams increasing their automated test coverage throughout the testing pyramid. Whichever career level I've been at I have also always been active in trying to improve team's development practices and processes.
 education:
     - degree: BSc in Computer Science with Industrial Placement
       university: University of Birmingham
       time: 2011 - 2015
       result: 1st
 experiences:
-    - role: Software Engineer
-      time: May 2021 - Present
-      company: Tyro, Sydney, Australia
+    - role: Tech Lead
+      time: Jan 2024 - Present
+      company: Tyro Payments, Sydney, Australia
       details: |
-        After a year of on and off UK lockdowns I had the unmissable opportunity to migrate to Australia, where I joined Tyro to work on their payments solutions.
+        Pricing engineering
 
-        I am based in one of the backend "Money-In, Money-Out" teams who own the main integration between Tyro and the Australian Bulk Electronic Clearing System (BECS) used to transfer funds to Tyro's merchants. We also own the services responsible for invoicing our merchants for Tyro's services. This team has been my first exposure to 100% pair programming and also red, green, refactor based TDD.
+        * Implemented transaction volume based EFTPOS terminal rental rates
+        * Made Tyro's No Cost EFTPOS solution compatible with merchants that take both EFTPOS and eCommerce payments
+        * Simplified merchant terminal rental rate configuration and created bulk rate update tooling to reduce the team's manual support burden
+        * Migrated CI/CD pipelines from Buildkite to GitHub Actions
+        * Refreshed pair programming and TDD practices within the team
 
-        As Tyro are still ramping up their cloud migration I have been able to use experience from previous roles to help guide their microservices architecture. I have been commended for always conveying these past experiences as constructive advice rather than trying to enforce a specific solution.
+        Technologies: Kotlin, Java 8 & 17, Spring Boot, Kubernetes, Prometheus, AWS SNS & SQS, Terraform, MySQL (AWS Aurora), Git, GitHub Actions and BuildKite
+    - role: Software Engineer
+      time: May 2021 - Jan 2024
+      company: Tyro Payments, Sydney, Australia
+      details: |
+        "Money-In, Money-Out"
 
-        Technologies: Kotlin, Java 8, Spring Boot, Kubernetes, Prometheus, AWS SQS, Terraform, MySQL (AWS Aurora), Git and BuildKite
+        * Uplifting the in-house invoicing platform's invoice rendering and accounting to be configuration rather than code based
+        * Significantly improved time performance of both the invoicing platform and Tyro's BECS integration (vital for settling funds to Tyro's merchants) by optimising Hibernate mappings and queries
+        * Implementing custom merchant settlement process with Bendigo Bank
+        * Designed and implemented integration of Tyro Banking's internal financial gateway with BECS
+
+        Technologies: See above
     - role: Senior Software Developer
       time: Apr 2019 - Apr 2021
       company: SAP, Maidenhead, UK
       details: |
-        Having been promoted to a Senior Developer I took a more prominent role in designing and architecting solutions, including migrating the Customer Recovery applications from Cloud Foundry to Kubernetes. This was mainly around dockerising our applications and producing their Kubernetes and Istio resources.
+        SAP Hybris Context Driven Services and SAP Upscale
 
-        In May 2020 our team was moved from the Context Driven Services product to the Upscale Commerce product. I quickly got up to speed with the product as a whole and the areas of the product our team was to be responsible for, allowing me to help drive designs and architectures to best support new features.
-
-        In this role I have also been keen to use my experience in agile teams to identify improvements to ways or working of teams across Upscale Commerce. To be formalise my experience I attained my Professional Scrum Master certification from Scrum.org.
+        * Dockerising workloads and migrating from Cloud Foundry to Kubernetes
+        * Introduced Karate UI tests to the SAP Upscale product for E2E regression testing
 
         Technologies: Java 11, Spring Boot, Kubernetes, Cloud Foundry, Kafka, Istio, Prometheus, Angular, cypress, Karate, PostgreSQL (AWS RDS and Aurora), Redis (AWS elasticache), Git, Bamboo, and Jenkins
     - role: Software Developer
       time: Jan 2018 - Apr 2019
       company: SAP, Maidenhead, UK
       details: |
-        This was my first role working on truly cloud native architectures where I was designing and developing Spring Boot microservices and Angular frontends deployed to Cloud Foundry, utilising AWS backing services.
+        SAP Hybris Context Driven Services
 
-        Over this first year in the team I became regarded as a senior member of the team and this was recognised by my manager who put me forward for a promotion to Senior Developer.
+        * Implementing Customer Recovery (abandoned cart/session) email campaigns for SAP's Hybris eCommerce product
 
         Technologies: See above
-    - role: Software Engineer (Proposals & Outcomes team lead)
+    - role: Software Engineer
       time: Aug 2016 - Dec 2017
       company: Science and Technology Facilities Council (STFC), Harwell, UK
       details: |
-        A year into my two year graduate scheme at STFC I successfully interviewed for a position as the team lead for the Proposals & Outcomes team within my group.
-        * project and programme management of the various systems my team and group were responsible for
-        * line management of apprentices, placement students and full-time staff.
+        Facilities Business Systems Proposals & Outcomes team lead
+
+        * Line management of apprentices, placement students and full-time staff
+        * Performance tuning of proposal systems
+        * Reskin of the existing proposal systems
 
         Technologies: Java 7 EE, C#/.NET 4.5, JavaScript, Oracle SQL, Glassfish/Payara, IIS, Git, and Jenkins
     - role: Graduate Software Engineer
       time: Aug 2015 - Aug 2016
       company: STFC, Harwell, UK
       details: |
-        After undertaking my placement year with STFC I was awarded a place on the Student Sponsorship scheme and after completing my degree I progressed through the scheme into a position as a Graduate Software Engineer.
+        Facilities Business Systems
+
+        * Extended the existing experiment proposal to support an additional facility at the Rutherford Appleton Laboratory (RAL). Involved significant project management as well as development.
+        * Implemented a PoC on provisioning new production servers with Powershell Desired State Configuration
+        * Migrating content from a custom CMS to SharePoint pages
 
         Technologies: See above
     - role: Placement Student Software Engineer
       time: Jul 2013 - Jul 2014
       company: STFC, Harwell, UK
       details: |
-        In my first commercial software development experience I was fortunate to join a small team responsible for all phases of the software development lifecycle, so gained a solid grounding in what it mean to be part of a professional software development team.
+        Facilities Business Systems
+
+        * Building out a new scheduling system to allow facility users' experiments at RAL
+        * Tier 1, 2 and 3 support for systems the team was responsible for
+        * Awarded Staff Recognition Awarded
+        * Granted Sponsorship to return as a Graduate
 
         Technologies: See above
 footer: >
