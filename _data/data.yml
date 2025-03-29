@@ -15,11 +15,13 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      I am a Tech Lead/Senior Software Engineer and Professional Scrum Master with nearly 10 years experience mainly as a back-end engineer, but with a sprinkling of full-stack exposure. Through my roles to date I have had worked in the payments, eCommerce and scientific research domains.
+      Experienced Software Engineer with a strong focus on pragmatic decision-making when it comes to technology choices and solution design. Over 10 years of experience, primarily in Java back-end development (with a sprinkling of full-stack exposure with Angular) on cloud-native architectures. Proficient in a range of technologies, including Spring Boot, Kubernetes, AWS (SNS+SQS, RDS, elasticache and more), Terraform, CICD (GitHub Actions, BuildKite & Jenkins), Prometheus and Grafana.
 
-      Most recently I have been working on cloud native stacks, making use of Kotlin, Spring Boot, Kubernetes, AWS (MySQL aurora, SNS & SQS, DynamoDB and others), Terraform, GitHub Actions, Prometheus and more. In the past I have also had limited experience with Angular and C#/ASP.NET.
+      Every time I've moved into a new business domain, I have quickly developed deep expertise and become a subject matter expert, enabling me to make informed decisions that align with both technical and business strategies. I believe this the key strength that has allowed me to grow into a senior engineer and leader.
 
-      I may be a relatively recent convert to TDD, but I've forever been a whole hearted believer in "If it's not tested, it's not 'done' and it doesn't work" and am always an advocate for my teams increasing their automated test coverage throughout the testing pyramid. Whichever career level I've been at I have also always been active in trying to improve team's development practices and processes.
+      I also believe that building a solution is only the first part of the job - ensuring it continues to run smoothly in production is what really matters. I have always prioritised solid monitoring, alerting, and operational visibility to support both technical teams and business stakeholders.
+
+      I have always taken a keen interest in trying to help shape my teams' development processes and practices so we can work as effectively (and enjoyably) as possibly. This has covered things from approaches to Pair Programming and TDD to backlog refinement and Sprint planning processes.
 education:
     - degree: BSc in Computer Science with Industrial Placement
       university: University of Birmingham
